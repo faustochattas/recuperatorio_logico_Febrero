@@ -42,8 +42,6 @@ noTienePrimicia(Programa):-
 % conduceMasDeUnPorgrama(conductor)
 
 conduceMasDeUnPrograma(Conductor):-
-    programa(Programa,_),
-    programa(Programa2,_),
     conduce(Programa,Conductor),
     conduce(Programa2,Conductor),
     Programa \= Programa2.
